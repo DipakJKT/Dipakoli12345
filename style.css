@@ -1,0 +1,309 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    background-image: url("pp.png");
+    background-size: cover;
+    height: 100vh;
+}
+
+.menu {
+    display: flex;
+    width: 100%;
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+}
+
+
+.logo {
+    background-color: black;
+    width: 19%;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: capitalize;
+    cursor: pointer;
+    height: 10vh;
+}
+
+h1 {
+    color: green;
+}
+
+.nav {
+    width: 77%;
+
+}
+
+.nav a {
+    padding: 20px;
+    background-color: black;
+    margin: 17px;
+    padding-right: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    color: wheat;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: red;
+}
+ marquee
+{
+    color: yellow;
+}
+.how {
+    width: 100%;
+    position: absolute;
+    top: 55%;
+    transform: translateY(-45%);
+    text-align: center;
+    color: gray;
+}
+
+.how h1 {
+    font-size: 35px;
+    margin: auto;
+}
+
+.how p {
+    font-size: medium;
+    margin: auto;
+    color: #009688;
+    margin-top: 1rem;
+}
+
+button {
+    width: 200px;
+    margin: 20px 10px;
+    padding: 15px 0;
+    text-align: center;
+    border-radius: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 2px solid #009688;
+    cursor: pointer;
+    background: transparent;
+    color: #fff;
+}
+
+button:hover {
+    background-color: aqua;
+}
+
+.form {
+    height: 225px;
+    width: 225px;
+    margin: 2px 1px;
+    padding: 1px 0;
+    text-align: center;
+    border-radius: 40000000px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 2px solid #009688;
+    cursor: pointer;
+    background: transparent;
+    color: #fff;
+    background-image: url(000.jpg);
+    background-position: center;
+    background-size: 250px;
+}
+section {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+
+.about {
+    width: 100%;
+    size: 1000px;
+}
+
+.about a {
+    color: wheat;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+}.about1{
+    justify-content: space-between;
+
+
+}
+.why{
+    width: 220px;
+
+}
+.why button{
+    width: 220px;
+margin-left: 10px;
+text-align: center;
+width:10%;
+font-size: small;
+margin-top: 1px;
+padding-right:20px;
+}
+.yyy button{
+    width: 30%;
+    height: 50vh;
+padding: 15px;
+margin: 45px;
+background-image: url("666.jpg");
+background-position: center;
+background-size: 390px;
+margin-top: 0px;
+margin-left: 0px;
+}
+.tt a
+{
+    display: flex;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align:  center;
+    margin-left: 45%;
+    font-size: 2.5rem;
+}.bbb{
+    width: 100%;
+    height: 70px;
+    background-color: aqua;
+}
+.bbb a
+{   text-decoration: none;
+    color: black;
+    text-align: center;
+    margin: 2rem;
+    text-transform: uppercase;
+    box-shadow: 3rem red;
+    margin-top: 1rems;
+}
+.aaa
+{   
+    display: flex;
+    width: 100%;
+    background-color:yellow;
+    
+
+}
+
+.ccc
+{   display: flex;
+    width: 100%;
+}
+.ccc img
+{   margin-top: 8rem;
+    height: auto;
+    width: 320px;
+    height: 70%;
+    border-radius: 50rem;
+   margin-left: 7rem;
+   box-shadow: 0 0 40px rgba(255, 255, 255, 0.5);
+  
+}
+.ddd h3
+{   margin-top: 9rem;
+    margin-left: 15rem;
+      display: flex;
+      width: 50%;
+      font-size: 1.5rem;
+      color: #353535;
+      
+}
+.ddd p
+{   margin-left: 9rem;
+  margin-top: 2rem;
+    display: flex;
+    width: 50%;
+    font-size: 1.5rem;
+    font-weight: 4rem;
+    padding: 1rem;
+    box-shadow: 0 0 10px red;
+    
+}
+
+.eee  
+{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.eee a
+{
+    color: green;
+    text-decoration: none;
+    text-transform: uppercase;
+   
+}
+.fff img
+{
+    width: 33%;
+    padding: 1rem;
+    box-shadow: 0 0 10rem #353535;
+}
+.fff:hover img {
+    transform: scale(0.8);
+}
+
+.ooo  
+{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.ooo a
+{
+    color: green;
+    text-decoration: none;
+    text-transform: uppercase;
+   
+}
+.rr
+{
+    display :flex;
+}
+
+.rrr
+{  
+    margin-top: 3rem;
+    width: 35%;
+    box-shadow: 0 0 40px red;
+
+}
+
+.rrr img
+{ 
+    width: 100%;
+    
+
+}
+.title h1
+{
+    color: red;
+    text-align: center;
+
+}
+.butten button
+{
+    color: red;
+    text-align: center;
+    margin-left: 30%;
+    
+}
+.ttt{
+    width: 100%;
+}
+.ttt h1
+{
+color: red;
+text-align: center;
+}
+
